@@ -1,0 +1,29 @@
+{
+    "name": "reallyli/php-snowflake",
+    "description": "An ID Generator for PHP based on Snowflake Algorithm (Twitter announced).",
+    "license": "MIT",
+    "keywords": [
+        "unique id",
+        "snowflake algorithm",
+        "php snowflake",
+        "laravel snowflake",
+        "order id",
+        "unique order id",
+        "php unique id"
+    ],
+    "homepage": "https://github.com/reallyli/php-snowflake",
+    "authors": [
+        {
+            "name": "Godruoyi",
+            "email": "g@godruoyi.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {},
+    "autoload-dev": {},
+    "autoload": {
+        "psr-4": {
+            "Godruoyi\\Snowflake\\": "src"
+        }
+    }
+}
