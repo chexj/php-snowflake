@@ -10,7 +10,6 @@
 
 namespace Godruoyi\Snowflake;
 
-use Redis;
 use RedisException;
 
 class RedisSequenceResolver implements SequenceResolver
@@ -30,9 +29,11 @@ class RedisSequenceResolver implements SequenceResolver
     protected $prefix;
 
     /**
+     * @param mixed $redis
+     * @throws RedisException
      * Init resolve instance, must connectioned.
      */
-    public function __construct(Redis $redis)
+    public function __construct($redis)
     {
         if ($redis->ping()) {
             $this->redis = $redis;
