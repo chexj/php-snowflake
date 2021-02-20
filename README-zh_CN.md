@@ -62,7 +62,7 @@ Snowflake 是 Twitter 内部的一个 ID 生算法，可以通过一些简单的
 ## 安装
 
 ```shell
-$ composer require godruoyi/php-snowflake -vvv
+$ composer require chexj/php-snowflake
 ```
 
 ## 使用

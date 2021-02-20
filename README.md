@@ -61,7 +61,7 @@ Based on this, we created this package and integrated multiple sequence-number p
 ## Installation
 
 ```shell
-$ composer require godruoyi/php-snowflake -vvv
+$ composer require chexj/php-snowflake
 ```
 
 ## Useage
