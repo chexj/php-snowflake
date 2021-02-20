@@ -16,7 +16,7 @@ class Snowflake
 
     const MAX_WORKID_LENGTH = 5;
 
-    const MAX_SEQUENCE_LENGTH = 12;
+    const MAX_SEQUENCE_LENGTH = 8;
 
     const MAX_FIRST_LENGTH = 1;
 
@@ -90,9 +90,9 @@ class Snowflake
         $id = decbin($id);
 
         $data = [
-            'timestamp' => substr($id, 0, -22),
-            'sequence' => substr($id, -12),
-            'workerid' => substr($id, -17, 5),
+            'timestamp' => substr($id, 0, -13),
+            'sequence' => substr($id, -8),
+            'workerid' => substr($id, -13, 5),
         ];
 
         return $transform ? array_map(function ($value) {

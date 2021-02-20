@@ -1,5 +1,5 @@
 {
-    "name": "reallyli/php-snowflake",
+    "name": "chexj/php-snowflake",
     "description": "An ID Generator for PHP based on Snowflake Algorithm (Twitter announced).",
     "license": "MIT",
     "keywords": [
@@ -11,7 +11,7 @@
         "unique order id",
         "php unique id"
     ],
-    "homepage": "https://github.com/reallyli/php-snowflake",
+    "homepage": "https://github.com/chexj/php-snowflake",
     "authors": [
         {
             "name": "Godruoyi",
